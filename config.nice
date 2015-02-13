@@ -1,0 +1,44 @@
+
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--prefix=/data0/php' \
+'--with-config-file-path=/data0/php/etc' \
+'--with-mysql=/data0/mysql5536' \
+'--with-mysqli=/data0/mysql5536/bin/mysql_config' \
+'--with-iconv-dir' \
+'--with-freetype-dir' \
+'--with-jpeg-dir=' \
+'--with-png-dir' \
+'--with-zlib' \
+'--with-libxml-dir' \
+'--enable-xml' \
+'--disable-rpath' \
+'--enable-bcmath' \
+'--enable-shmop' \
+'--enable-sysvsem' \
+'--enable-inline-optimization' \
+'--with-curl' \
+'--enable-mbregex' \
+'--enable-fpm' \
+'--enable-mbstring' \
+'--enable-ftp' \
+'--with-gd' \
+'--enable-gd-native-ttf' \
+'--with-openssl' \
+'--with-mhash' \
+'--enable-pcntl' \
+'--enable-sockets' \
+'--with-xmlrpc' \
+'--enable-zip' \
+'--enable-fastcgi' \
+'--enable-soap' \
+'--without-pear' \
+'--with-gettext' \
+'--with-ldap=/usr' \
+'--with-ldap-sasl=/usr' \
+'--enable-memcache' \
+'--enable-redis' \
+"$@"
